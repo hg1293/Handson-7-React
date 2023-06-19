@@ -1,0 +1,135 @@
+body
+{
+  background-image: linear-gradient(lightcyan,pink,Cornsilk);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.navbar
+{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:rgb(246, 246, 241);
+}
+.link
+{
+  text-decoration: none;
+  color: rgb(209, 157, 157);
+  font-size: 30px;
+  font-weight:normal;
+  font-family:'Times New Roman', Times, serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+.head
+{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.home
+{
+  font-weight:normal;
+  font-family:'Times New Roman', Times, serif;
+}
+.table
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight:normal;
+}
+.table2
+{
+  width: 100vw;
+  height: 450px;
+  text-align: center;
+}
+.heading
+{
+  background-color: rgb(113, 156, 220);
+  font-size: 30px;
+  color: rgb(247, 247, 242);
+  font-family: cursive;
+}
+.btn
+{
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(152, 152, 224);
+  color: white;
+  font-size: 20px;
+  font-weight:normal;
+  margin-top: 30px;
+}
+.new
+{
+  background-color: rgb(126, 125, 213);
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align:center ;
+  line-height: 80px;
+  color:rgb(10, 10, 10);
+  font-size: 20px;
+  font-weight:normal;
+  border-radius: 5px;
+}
+.main
+{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(lightcyan,pink,Cornsilk);
+
+}
+.child1
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.inp
+{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: rgb(23, 21, 21);
+  font-weight:normal;
+  padding: 5px;
+}
+.new2
+{
+  background-color:springgreen;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align:center ;
+  line-height: 80px;
+  color:black;
+  font-size: 20px;
+  font-weight:normal;
+  border-radius: 5px;
+}
+.submit
+{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(134, 154, 237);
+  border: 2px solid black;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.submit:hover
+{
+  background-color: rgb(204, 202, 100);
+}
